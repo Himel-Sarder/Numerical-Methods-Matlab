@@ -1,6 +1,6 @@
 clear, clc
 
-%% Function
+%% Function 
 function [Root, store] = FixedP(f, x0, tol)
     store = [];
     x1 = f(x0);
@@ -12,19 +12,19 @@ function [Root, store] = FixedP(f, x0, tol)
     Root = x1;
 end
 
-%% Input
+%% Input 
 syms x;
 f = @(x) sqrt(1 / (x + 1));
 x0 = input("Enter initial guess : ");
 tol = input("Enter tolerance : ");
 
-%% Function call
+%% Function call 
 [Root, store] = FixedP(f, x0, tol);
 
-%% Print Root
+%% Print Root 
 fprintf("Root : %.6f", Root);
 
-%% Plot
+%% Plot 
 figure;
 plot(store);
 xlabel("X");
