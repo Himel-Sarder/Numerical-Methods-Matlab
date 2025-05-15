@@ -74,3 +74,4 @@ Feel free to improve the code, fix bugs, or add new methods.
 
 This project is open-source and free to use under the MIT License.
 
+## Thank you 🤍
